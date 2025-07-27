@@ -1,0 +1,22 @@
+ body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+        }
+        .section {
+            padding: 6rem 1rem;
+        }
+        @media (min-width: 768px) {
+            .section {
+                padding: 8rem 2rem;
+            }
+        }
+        /* Add smooth transitions to all elements */
+        * {
+            transition: all 0.2s ease-in-out;
+        }
+        .skill-icon {
+            transition: transform 0.3s ease;
+        }
+        .skill-icon:hover {
+            transform: scale(1.1);
+        }
